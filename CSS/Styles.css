@@ -1,0 +1,133 @@
+.containerA {
+  display: grid;
+  background-color: #fce9dc;
+  grid-gap: 5px;
+  grid-template-areas:
+      "logo header header header"
+      "sidebar sidebar sidebar sidebar"
+      "content-1 content-2 content-2 content-3"
+      "content-1 content-2 content-2 content-3"
+      "footer footer footer footer";
+}
+.containerA > div {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+
+
+.containerB {
+  display: grid;
+   background-color: #fce9dc;
+  grid-gap: 5px;
+  grid-template-areas:
+     "logo header header header"
+     "sidebar sidebar sidebar sidebar"
+      "content-1 content-1 content-2 content-3"
+      "content-1 content-1 content-4 content-5"
+      "footer footer footer footer";
+}
+.containerB > * {
+  border: 1px solid black;
+   text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+
+
+.containerC {
+  display: grid;
+   background-color: #fce9dc;
+  grid-gap: 5px;
+  grid-template-areas:
+     "logo header header header"
+     "sidebar sidebar sidebar sidebar"
+      "content-1 content-1 content-2 content-3"
+      "content-1 content-1 content-2 content-3"
+      "footer footer footer footer";
+}
+.containerC > * {
+  border: 1px solid black;
+   text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+
+.containerD {
+  display: grid;
+   background-color: #fce9dc;
+  grid-gap: 5px;
+  grid-template-areas:
+     "logo header header header"
+     "sidebar sidebar sidebar sidebar"
+      "content-1 content-3 content-3 content-4"
+      "content-2 content-3 content-3 content-5"
+      "footer footer footer footer";
+}
+.containerD > * {
+  border: 1px solid black;
+   text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+
+.containerE {
+  display: grid;
+   background-color: #fce9dc;
+  grid-gap: 5px;
+  grid-template-areas:
+     "logo header header header"
+     "sidebar sidebar sidebar sidebar"
+      "content-1 content-1 content-1 content-1"
+      "content-2 content-2 content-2 content-2"
+      "footer footer footer footer";
+}
+.containerE > * {
+  border: 1px solid black;
+   text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+} 
+.logo{
+    grid-area: logo;
+    position: relative;
+    left: 10px
+}
+
+.header {
+  grid-area: header;
+   background-color: black;
+   position: relative;
+   left: 10px;
+   padding-right:-90000px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+    position: relative;
+   left: 10px;
+}
+
+.content-1 {
+  grid-area: content-1;
+   background-color: lightpink;
+}
+
+.content-2 {
+  grid-area: content-2;
+   background-color: lightpink;
+}
+
+.content-3 {
+  grid-area: content-3;
+   background-color: lightpink;
+}
+
+.footer {
+  grid-area: footer;
+   background-color: whitesmoke;
+}
